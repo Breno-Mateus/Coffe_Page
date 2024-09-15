@@ -1,5 +1,6 @@
 import { SpacenHeader, SectionHeader, LinksPage, Image, IconSearch, IconCart, DivIcons } from "./style"
 import Logo from "../../assets/logo.png"
+import { Link } from "react-scroll";
 
 const Header = () => {
     return(
@@ -10,11 +11,11 @@ const Header = () => {
                 </a>
 
                 <nav>
-                    <LinksPage to="SectionMain">Home</LinksPage>
-                    <LinksPage to="SectionAbout">Sobre</LinksPage>
-                    <LinksPage to="SectionMenu">Menu</LinksPage>
-                    <LinksPage to="SectionFeedback">Avaliações</LinksPage>
-                    <LinksPage to="SectionAddress">Endereços</LinksPage>
+                    <Link to="SectionMain"><LinksPage>Home</LinksPage></Link>
+                    <Link to="SectionAbout"><LinksPage>Sobre</LinksPage></Link>
+                    <Link to="SectionMenu"><LinksPage>Menu</LinksPage></Link>
+                    <Link to="SectionFeedback"><LinksPage>Avaliações</LinksPage></Link>
+                    <Link to="SectionAddress"><LinksPage>Endereços</LinksPage></Link>
                 </nav>
 
                 <DivIcons>
