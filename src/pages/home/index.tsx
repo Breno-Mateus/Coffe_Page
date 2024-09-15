@@ -10,7 +10,7 @@ const Home = () => {
     return(
         <>
         <Header />
-        <SectionMain id="SectionMain"/>
+        <SectionMain />
         <SectionAbout />
         <SectionMenu />
         <SectionFeedback />
