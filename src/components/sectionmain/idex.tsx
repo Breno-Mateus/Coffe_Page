@@ -3,7 +3,7 @@ import Button from "../button"
 
 const SectionMain = () => {
     return(
-        <MainDiv>
+        <MainDiv id="SectionMain">
             <MainSection>
                 <Content>
                     <Title>CODE COM O MELHOR CAFÉ DA REGIÃO</Title>

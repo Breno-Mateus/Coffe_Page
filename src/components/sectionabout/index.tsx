@@ -5,7 +5,7 @@ import AboutImage from "../../assets/about-img.jpg"
 
 const SectionAbout = () => {
     return(
-        <AboutSection>
+        <AboutSection id="SectionAbout">
             <Title>Sobre <TitleDecoration>Nós</TitleDecoration></Title>
             
             <Row>

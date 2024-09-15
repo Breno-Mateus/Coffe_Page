@@ -6,7 +6,7 @@ import Client3 from "../../assets/pic-3.png"
 
 const SectionFeedback = () => {
     return(
-        <FeedbackSection>
+        <FeedbackSection id="SectionFeedback">
             <Title>Nossos <TitleDecoration>Clientes</TitleDecoration></Title>
             
             <BoxContainer>

@@ -10,11 +10,11 @@ const Header = () => {
                 </a>
 
                 <nav>
-                    <LinksPage href="#">Home</LinksPage>
-                    <LinksPage href="#">Sobre</LinksPage>
-                    <LinksPage href="#">Menu</LinksPage>
-                    <LinksPage href="#">Avaliações</LinksPage>
-                    <LinksPage href="#">Endereços</LinksPage>
+                    <LinksPage to="SectionMain">Home</LinksPage>
+                    <LinksPage to="SectionAbout">Sobre</LinksPage>
+                    <LinksPage to="SectionMenu">Menu</LinksPage>
+                    <LinksPage to="SectionFeedback">Avaliações</LinksPage>
+                    <LinksPage to="SectionAddress">Endereços</LinksPage>
                 </nav>
 
                 <DivIcons>

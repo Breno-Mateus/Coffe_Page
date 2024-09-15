@@ -10,7 +10,7 @@ import Menu6 from "../../assets/menu-6.png";
 
 const SectionMenu = () => {
     return(
-        <MenuSection>
+        <MenuSection id="SectionMenu">
             <Title>Nosso <TitleDecoration>Menu</TitleDecoration></Title>
 
             <BoxContainer>

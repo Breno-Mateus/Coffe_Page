@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
-
+import { Link } from "react-scroll";
 
 export const SpacenHeader = styled.header`
     position: fixed;
@@ -24,10 +24,11 @@ export const SectionHeader = styled.section`
     padding-bottom: .5rem;
 `
 
-export const LinksPage = styled.a`
+export const LinksPage = styled(Link)`
     margin: 0 1rem;
     font-size: 1rem;
     color: #fff;
+    cursor: pointer;
 
     &:hover {
         color: #d3ad7f;
