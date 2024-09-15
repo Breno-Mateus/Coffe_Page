@@ -9,6 +9,7 @@ export const SpacenHeader = styled.header`
     right: 0;
     z-index: 99;
     border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3);
+    background-color: #010103;
 `
 
 export const SectionHeader = styled.section`

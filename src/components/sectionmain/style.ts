@@ -19,7 +19,7 @@ export const MainSection = styled.section`
 `
 
 export const Content = styled.div`
-    max-width: 60rem;
+    max-width: 35rem;
 `
 
 export const Title = styled.h3`
@@ -38,7 +38,7 @@ export const Text = styled.p`
 export const Button = styled.a`
     background-color: #d3ad7f;
     color: #fff;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1rem;
