@@ -5,8 +5,6 @@ export const AboutSection = styled.section`
     margin: 0 auto;
     width: 100%;
 
-    background-color: #010103;
-
     display: flex;
     align-items: center;
     justify-content: center;
